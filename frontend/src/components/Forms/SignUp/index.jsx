@@ -33,7 +33,7 @@ export default function SignUp() {
           <div className="connexion__form__input">
             <label htmlFor="password"></label>
             <input
-              id="password-login"
+              id="password-signup"
               name="password"
               type="password"
               autoComplete="on"
