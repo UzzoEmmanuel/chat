@@ -11,10 +11,10 @@ export default function Login() {
           <div className="connexion__form__input">
             <label htmlFor="username"></label>
             <input
-              id="username-login"
-              name="username"
+              id="email-login"
+              name="email"
               type="text"
-              placeholder="Nom"
+              placeholder="Email"
               required
               className="connexion__form__input__field"
             />

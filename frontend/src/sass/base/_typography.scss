@@ -12,3 +12,12 @@ h2 {
   @include bold;
   color: $color-secondary;
 }
+
+h3 {
+  @include bold;
+  color: $color-white;
+}
+
+a {
+  color: $color-white;
+}
