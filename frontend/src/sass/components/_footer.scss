@@ -1,0 +1,23 @@
+.footer {
+  width: auto;
+  height: 11rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: $color-primary;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+  &__container {
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__title {
+      color: $color-white;
+      margin-bottom: 0.25rem;
+    }
+    &__link {
+      color: $color-white;
+      margin-top: 0.25rem;
+    }
+  }
+}
