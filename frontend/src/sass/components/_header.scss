@@ -1,0 +1,24 @@
+.header {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: $color-primary;
+  clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
+  &__logo {
+    @include logo;
+    margin: 1.5rem;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__title {
+    margin-left: 1.5rem;
+  }
+}

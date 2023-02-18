@@ -1,0 +1,7 @@
+.connexion__form__button__submit {
+  @include connexion-button;
+}
+
+.connexion__form__button__submit:hover {
+  @include connexion-button--hover;
+}
