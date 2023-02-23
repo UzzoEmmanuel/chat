@@ -10,7 +10,7 @@ h1 {
 
 h2 {
   @include bold;
-  color: $color-secondary;
+  @include gradient;
 }
 
 h3 {
