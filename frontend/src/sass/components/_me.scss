@@ -1,0 +1,55 @@
+.me {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  &__title {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    padding: 1rem 0 1rem 0;
+    border: solid 2px $color-primary;
+    border-radius: 5px;
+    background-color: $color-tertiary;
+  }
+
+  &__picture {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: solid 2px $color-primary;
+  }
+  &__name {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    &__input {
+      width: 10rem;
+      @include bold;
+      @include gradient;
+      font-size: 1.5rem;
+      text-align: center;
+      border: none;
+    }
+    &__input:focus {
+      outline: none;
+    }
+    &__submit {
+      @include icon;
+      color: $color-black;
+      border-radius: 50%;
+      border: none;
+    }
+    &__submit:hover {
+      color: $color-primary;
+    }
+  }
+}

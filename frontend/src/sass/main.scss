@@ -6,10 +6,13 @@
 @import './base/animation';
 
 @import './pages/connexion';
+@import './pages/dashboard';
 @import './pages/loader';
 @import './pages/error';
 
 @import './components/header';
 @import './components/footer';
 @import './components/connexion_form';
+@import './components/me';
+@import './components/my_friends';
 @import './components/buttons';
